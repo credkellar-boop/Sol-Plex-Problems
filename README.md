@@ -1,7 +1,5 @@
-# Sol-Plex-Problems
-
 <p align="center">
-  <img src="watermarked_img_16774783400556732877.png" alt="Sol-Plex 4D Logo" width="500"/>
+  <img src="IMG_0611.jpeg" alt="Sol-Plex Logo" width="500"/>
 </p>
 
 **Repository Status & Quality**
