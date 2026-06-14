@@ -88,3 +88,6 @@ Based on the cognitive engine and deployment architecture, the project utilizes 
 ```bash
    git clone [https://github.com/credkellar-boop/Sol-Plex-Problems.git](https://github.com/credkellar-boop/Sol-Plex-Problems.git)
    cd Sol-Plex-Problems
+
+[dependencies]
+sol-plex-problems = "0.1.5"
