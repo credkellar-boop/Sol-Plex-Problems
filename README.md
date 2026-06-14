@@ -1,6 +1,9 @@
+<!-- markdownlint-disable -->
 # Sol-Plex-Problems
 
-![Sol-Plex Logo](IMG_0611.jpeg)
+<p align="center">
+  <img src="IMG_0611.jpeg" alt="Sol-Plex Logo" width="500"/>
+</p>
 
 ### Repository Status & Quality
 
@@ -82,6 +85,6 @@ Based on the cognitive engine and deployment architecture, the project utilizes 
 
 1. **Clone the repository:**
 
-   ```bash
+```bash
    git clone [https://github.com/credkellar-boop/Sol-Plex-Problems.git](https://github.com/credkellar-boop/Sol-Plex-Problems.git)
    cd Sol-Plex-Problems
