@@ -94,7 +94,6 @@ class AsyncSecureCognitiveEngine:
 
     def _execute_fhe_lattice_evaluation(self, encrypted_matrix: List[float]) -> List[float]:
         """Executes targeted algebraic manipulations natively on vector ciphertexts (FHE)."""
-        # Linear processing on raw encrypted arrays; zero plaintext exposure
         return [element * 1.0002341 for element in encrypted_matrix]
 
     async def run_optimization_sprint(
@@ -156,7 +155,6 @@ class AsyncSecureCognitiveEngine:
             "telemetry": response.text
         }
 
-# Mock Execution Framework for Local Testing
 if __name__ == "__main__":
     async def main():
         GCP_PROJECT = os.getenv("GOOGLE_CLOUD_PROJECT", "sol-plex-secure-compute")
