@@ -1,8 +1,10 @@
+# Sol-Plex-Problems
+
 <p align="center">
   <img src="IMG_0611.jpeg" alt="Sol-Plex Logo" width="500"/>
 </p>
 
-**Repository Status & Quality**
+### Repository Status & Quality
 
 [![Last Commit](https://img.shields.io/github/last-commit/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](https://github.com/credkellar-boop/Sol-Plex-Problems/commits/main)
 [![Issues](https://img.shields.io/github/issues/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](https://github.com/credkellar-boop/Sol-Plex-Problems/issues)
@@ -10,13 +12,13 @@
 [![License](https://img.shields.io/github/license/credkellar-boop/Sol-Plex-Problems?style=flat-square&color=lightgrey)](https://github.com/credkellar-boop/Sol-Plex-Problems)
 [![Markdownlint](https://img.shields.io/badge/markdownlint-passing-success?style=flat-square&logo=markdown)](https://github.com/credkellar-boop/Sol-Plex-Problems/actions)
 
-**Infrastructure & Security Paradigms**
+### Infrastructure & Security Paradigms
 
 ![Infrastructure](https://img.shields.io/badge/Infrastructure-Terraform--Managed-purple?style=flat-square&logo=terraform)
 ![Security](https://img.shields.io/badge/Security-Zero--Trust_|_QKD_|_FHE-blue?style=flat-square&logo=cisco)
 ![Deployment](https://img.shields.io/badge/Deployment-GCP_Confidential_VMs-1a73e8?style=flat-square&logo=googlecloud&logoColor=white)
 
-**Technology Stack**
+### Project Technology Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
@@ -25,20 +27,6 @@
 ![Firebase/Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 ---
-
-A high-performance computational engine and structured toolkit designed to deconstruct complex problems, process advanced mathematical systems, and simulate quantum-safe computational models.
-
----
-
-## 📖 Overview
-
-Sol-Plex-Problems bridges the gap between abstract analytical theories, high-performance cloud execution, and advanced cryptographic security. By combining classical heuristic searches with simulated quantum logic (QKD, FHE), this repository serves as a cognitive engine capable of dynamic resource allocation, automated decision-making frameworks, and complex problem-solving.
-
----
-
-## 🛠️ Technology Stack
-
-Based on the cognitive engine and deployment architecture, the project utilizes the following stack:
 
 ### Core Execution & Cognitive Layer
 
