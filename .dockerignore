@@ -1,0 +1,29 @@
+# Git context
+.git
+.github
+*.md
+
+# Local environment configs and security credentials
+.env
+*.pem
+*.key
+.gcp-credentials.json
+
+# Infrastructure definitions (managed separately on host machine)
+deploy/
+.terraform/
+*.tfstate*
+
+# Python dependency artifacts and local runtime caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# System / OS files
+.DS_Store
+Thumbs.db
