@@ -51,3 +51,14 @@ resource "google_compute_instance" "hpc_confidential_node" {
     enable-oslogin = "TRUE"
   }
 }
+
+# Google Cloud Memorystore (Redis) instance for instant state caching
+resource "google_redis_instance" "cognitive_cache" {
+  name           = "sol-plex-cache"
+  tier           = "BASIC"
+  memory_size_gb = 1 # Scales based on state size
+  region         = var.region
+
+  # Located in the same VPC as your Confidential Compute Node for minimum network hops
+  authorized_network = "default"
+end
