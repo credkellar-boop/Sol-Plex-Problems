@@ -1,6 +1,6 @@
 [package]
 name = "credkellar-boop"
-version = "0.1.0"
+version = "0.1.5"
 license = "MIT" # or Apache-2.0
 readme = "README.md"
 repository = "https://github.com/credkellar-boop/sol-plex-problems"
