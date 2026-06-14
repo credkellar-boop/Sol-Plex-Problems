@@ -1,6 +1,6 @@
 [package]
 name = "sol-plex-problems"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2021"
 authors = ["Darion Kellar <credkellar-boop>"]
 description = "A high-performance Rust library engineered for solving complex problems within the Sol ecosystem."
