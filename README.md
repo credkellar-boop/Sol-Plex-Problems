@@ -1,8 +1,6 @@
 # Sol-Plex-Problems
 
-<p align="center">
-  <img src="IMG_0611.jpeg" alt="Sol-Plex Logo" width="500"/>
-</p>
+![Sol-Plex Logo](IMG_0611.jpeg)
 
 ### Repository Status & Quality
 
@@ -27,6 +25,16 @@
 ![Firebase/Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 ---
+
+## 📖 Overview
+
+Sol-Plex-Problems bridges the gap between abstract analytical theories, high-performance cloud execution, and advanced cryptographic security. By combining classical heuristic searches with simulated quantum logic (QKD, FHE), this repository serves as a cognitive engine capable of dynamic resource allocation, automated decision-making frameworks, and complex problem-solving.
+
+---
+
+## 🛠️ Technology Stack
+
+Based on the cognitive engine and deployment architecture, the project utilizes the following stack:
 
 ### Core Execution & Cognitive Layer
 
