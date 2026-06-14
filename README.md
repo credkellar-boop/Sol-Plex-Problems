@@ -1,23 +1,23 @@
 # Sol-Plex-Problems
 
 **Repository Status & Quality**
-[![Last Commit](https://img.shields.io/github/last-commit/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](#)
-[![Issues](https://img.shields.io/github/issues/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](#)
-[![Pull Requests](https://img.shields.io/github/issues-pr/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](#)
-[![License](https://img.shields.io/github/license/credkellar-boop/Sol-Plex-Problems?style=flat-square&color=lightgrey)](#)
-[![Markdownlint](https://img.shields.io/badge/markdownlint-passing-success?style=flat-square&logo=markdown)](#)
+[![Last Commit](https://img.shields.io/github/last-commit/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](https://github.com/credkellar-boop/Sol-Plex-Problems/commits/main)
+[![Issues](https://img.shields.io/github/issues/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](https://github.com/credkellar-boop/Sol-Plex-Problems/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/credkellar-boop/Sol-Plex-Problems?style=flat-square&logo=github)](https://github.com/credkellar-boop/Sol-Plex-Problems/pulls)
+[![License](https://img.shields.io/github/license/credkellar-boop/Sol-Plex-Problems?style=flat-square&color=lightgrey)](https://github.com/credkellar-boop/Sol-Plex-Problems)
+[![Markdownlint](https://img.shields.io/badge/markdownlint-passing-success?style=flat-square&logo=markdown)](https://github.com/credkellar-boop/Sol-Plex-Problems/actions)
 
 **Infrastructure & Security Paradigms**
-[![Infrastructure](https://img.shields.io/badge/Infrastructure-Terraform--Managed-purple?style=flat-square&logo=terraform)](#)
-[![Security](https://img.shields.io/badge/Security-Zero--Trust_|_QKD_|_FHE-blue?style=flat-square&logo=cisco)](#)
-[![Deployment](https://img.shields.io/badge/Deployment-GCP_Confidential_VMs-1a73e8?style=flat-square&logo=googlecloud&logoColor=white)](#)
+![Infrastructure](https://img.shields.io/badge/Infrastructure-Terraform--Managed-purple?style=flat-square&logo=terraform)
+![Security](https://img.shields.io/badge/Security-Zero--Trust_|_QKD_|_FHE-blue?style=flat-square&logo=cisco)
+![Deployment](https://img.shields.io/badge/Deployment-GCP_Confidential_VMs-1a73e8?style=flat-square&logo=googlecloud&logoColor=white)
 
 **Technology Stack**
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](#)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](#)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)](#)
-[![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)](#)
-[![Firebase/Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](#)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Firebase/Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 ---
 
@@ -82,5 +82,5 @@ Based on the cognitive engine and deployment architecture, the project utilizes 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/credkellar-boop/Sol-Plex-Problems.git
+   git clone [https://github.com/credkellar-boop/Sol-Plex-Problems.git](https://github.com/credkellar-boop/Sol-Plex-Problems.git)
    cd Sol-Plex-Problems
