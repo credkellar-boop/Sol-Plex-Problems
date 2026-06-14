@@ -36,46 +36,51 @@ Sol-Plex-Problems bridges the gap between abstract analytical theories, high-per
 Based on the cognitive engine and deployment architecture, the project utilizes the following stack:
 
 ### Core Execution & Cognitive Layer
-* **Python (Asyncio)** — Drives the asynchronous `AsyncSecureCognitiveEngine`, managing high-concurrency tasks without blocking the event loop.
-* **Google Cloud AI Platform** — Leverages Generative AI models for matrix processing and mathematical simulations.
-* **AIOHTTP** — Facilitates asynchronous API requests for the real-time `SolPlexSearch` agent.
+
+- **Python (Asyncio)** — Drives the asynchronous `AsyncSecureCognitiveEngine`, managing high-concurrency tasks without blocking the event loop.
+- **Google Cloud AI Platform** — Leverages Generative AI models for matrix processing and mathematical simulations.
+- **AIOHTTP** — Facilitates asynchronous API requests for the real-time `SolPlexSearch` agent.
 
 ### Infrastructure & Deployment (Terraform-Managed)
-* **Terraform (HCL)** — Infrastructure-as-Code (IaC) defining the entirety of the cloud environment.
-* **Google Cloud Platform (GCP)**:
-  * **Compute Engine (Confidential VMs)** — Secures hardware-level execution with memory encryption (`enable_confidential_compute = true`).
-  * **Firestore in Native Mode** — Persistent, long-term memory state storage for problem hashes and execution states.
-  * **Cloud Memorystore (Redis)** — In-memory, high-speed data caching for the cognitive engine.
-  * **Secret Manager** — Securely provisions and stores dynamic zero-trust keys and QKD-sifted keys.
+
+- **Terraform (HCL)** — Infrastructure-as-Code (IaC) defining the entirety of the cloud environment.
+- **Google Cloud Platform (GCP)**:
+  - **Compute Engine (Confidential VMs)** — Secures hardware-level execution with memory encryption (`enable_confidential_compute = true`).
+  - **Firestore in Native Mode** — Persistent, long-term memory state storage for problem hashes and execution states.
+  - **Cloud Memorystore (Redis)** — In-memory, high-speed data caching for the cognitive engine.
+  - **Secret Manager** — Securely provisions and stores dynamic zero-trust keys and QKD-sifted keys.
 
 ### Security & Cryptography
-* **Zero-Trust Architecture** — Every internal module validates dynamic signatures via HMAC before execution.
-* **Simulated QKD (Quantum Key Distribution)** — Emulates BB84 protocol key generation and caching for secure inter-module communication.
-* **FHE (Fully Homomorphic Encryption) Simulation** — Ciphertext processing utilizing SHA-256 lattice-hash transformations.
+
+- **Zero-Trust Architecture** — Every internal module validates dynamic signatures via HMAC before execution.
+- **Simulated QKD (Quantum Key Distribution)** — Emulates BB84 protocol key generation and caching for secure inter-module communication.
+- **FHE (Fully Homomorphic Encryption) Simulation** — Ciphertext processing utilizing SHA-256 lattice-hash transformations.
 
 ---
 
 ## 📂 Repository Structure
 
-* `/.github/` — Continuous Integration and structural workflows.
-* `/cognitive/` — The core Python execution modules (`math-engine.py`, `memory-manager.py`, `search-agent.py`) and quantum logic simulations.
-* `/deploy/` — Terraform configurations (`main.tf`, `variables.tf`) for deploying the GCP architecture.
-* `/frameworks/` — Markdown documentation covering Analytical, Decision-Making, Design-Thinking, and Systems frameworks.
-* `/workflows/` — Standardized operational sequences (e.g., OODA loops, pre-mortems, system stress tests).
+- `/.github/` — Continuous Integration and structural workflows.
+- `/cognitive/` — The core Python execution modules (`math-engine.py`, `memory-manager.py`, `search-agent.py`) and quantum logic simulations.
+- `/deploy/` — Terraform configurations (`main.tf`, `variables.tf`) for deploying the GCP architecture.
+- `/frameworks/` — Markdown documentation covering Analytical, Decision-Making, Design-Thinking, and Systems frameworks.
+- `/workflows/` — Standardized operational sequences (e.g., OODA loops, pre-mortems, system stress tests).
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-* **Python 3.8+**
-* **Terraform CLI**
-* **Google Cloud SDK (`gcloud`)**
-* **Node.js** (for supporting `package.json` scripts and linting)
+
+- **Python 3.8+**
+- **Terraform CLI**
+- **Google Cloud SDK (`gcloud`)**
+- **Node.js** (for supporting `package.json` scripts and linting)
 
 ### Initialization
 
 1. **Clone the repository:**
-```bash
-   git clone [https://github.com/credkellar-boop/Sol-Plex-Problems.git](https://github.com/credkellar-boop/Sol-Plex-Problems.git)
+
+   ```bash
+   git clone https://github.com/credkellar-boop/Sol-Plex-Problems.git
    cd Sol-Plex-Problems
