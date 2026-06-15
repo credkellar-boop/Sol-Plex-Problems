@@ -92,6 +92,8 @@ Based on the cognitive engine and deployment architecture, the project utilizes 
 [dependencies]
 sol-plex-problems = "0.1.5"
 
+---------------------------------------------
+
 ## Donation
 (To buy full subscription of business structure, strip codes, ampilify and create public repo)
 
