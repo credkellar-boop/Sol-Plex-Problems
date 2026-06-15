@@ -2,7 +2,7 @@
 # Sol-Plex-Problems
 
 <p align="center">
-  <img src="IMG_0611.jpeg" alt="Sol-Plex Logo" width="500"/>
+  <img src="IMG_0660.png" alt="Sol-Plex Logo" width="500"/>
 </p>
 
 ### Repository Status & Quality
