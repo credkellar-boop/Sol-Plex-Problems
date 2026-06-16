@@ -1,0 +1,18 @@
+# Impact Engine: Pilot Optimization & Standardization
+
+## 1. Pilot Parameters
+* **Hypothesis Tested:** * **Scope of Pilot:** [Target team, limited user base, or specific system]
+* **Success Metrics:**
+
+| Metric | Baseline | Target | Actual Result |
+| :--- | :--- | :--- | :--- |
+| Efficiency/Output | | | |
+| Error Rate | | | |
+
+## 2. Standardization Checklist
+> **Gatekeeper Note:** Do not proceed to Step 5 (Scale) unless all boxes below are checked.
+
+- [ ] Pilot met or exceeded target success metrics.
+- [ ] Process documentation (SOP) drafted and linked.
+- [ ] Automation or code adjustments reviewed and merged.
+- [ ] Monitoring dashboard updated to track results against baseline.
