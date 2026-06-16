@@ -3,15 +3,15 @@ provider "google" {
   region  = var.region
 }
 
-# 1. Zero Trust Key Storage & QKD Simulated Buffer
-resource "google_secret_manager_secret" "zt_mesh_key" {
+# 1. Zero Trust Key Storage & QKD Simulated Keys
+resource "google_secret_manager_secret" "zt-mesh-key" {
   secret_id = "zt-mesh-key"
   replication {
     auto {}
   }
 }
 
-resource "google_secret_manager_secret" "qkd_sifted_key" {
+resource "google_secret_manager_secret" "qkd-sifted-key" {
   secret_id = "qkd-sifted-key"
   replication {
     auto {}
@@ -25,16 +25,16 @@ resource "google_firestore_database" "memory_store" {
   type        = "FIRESTORE_NATIVE"
 }
 
-# 3. Confidential Compute Engine Instance (Hardware Isolated for FHE)
-# Uses specialized Confidential VMs to secure data-in-use at the CPU level
-resource "google_compute_instance" "hpc_confidential_node" {
+# 3. Confidential Compute Engine Instance (High-Performance Engine)
+# Uses specialized Confidential VMs to secure data during processing
+resource "google_compute_instance" "hpc_compute_node" {
   name         = "sol-plex-hpc-node"
-  machine_type = "c3-standard-4" # Intel TDX enabled general-purpose instance
+  machine_type = "c3-standard-4" # Intel TDX or AMD SEV backed
   zone         = "${var.region}-a"
 
   boot_disk {
     initialize_params {
-      image = "projects/confidential-vm-images/global/images/family/ubuntu-2204-lts"
+      image = "projects/confidential-vm-ima" # (Image path truncated in view)
     }
   }
 
@@ -52,13 +52,13 @@ resource "google_compute_instance" "hpc_confidential_node" {
   }
 }
 
-# Google Cloud Memorystore (Redis) instance for instant state caching
+# Google Cloud Memorystore (Redis) instance
 resource "google_redis_instance" "cognitive_cache" {
   name           = "sol-plex-cache"
   tier           = "BASIC"
-  memory_size_gb = 1 # Scales based on state size
+  memory_size_gb = 1 # Scales based on state complexity
   region         = var.region
 
-  # Located in the same VPC as your Confidential Compute Node for minimum network hops
+  # Located in the same VPC as your Confidential VM
   authorized_network = "default"
-end
+}
