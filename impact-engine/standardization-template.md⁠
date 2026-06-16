@@ -1,18 +1,10 @@
-# Impact Engine: Pilot Optimization & Standardization
+# Impact Engine Standardization Blueprint
 
-## 1. Pilot Parameters
-* **Hypothesis Tested:** * **Scope of Pilot:** [Target team, limited user base, or specific system]
-* **Success Metrics:**
-
-| Metric | Baseline | Target | Actual Result |
-| :--- | :--- | :--- | :--- |
-| Efficiency/Output | | | |
-| Error Rate | | | |
-
-## 2. Standardization Checklist
-> **Gatekeeper Note:** Do not proceed to Step 5 (Scale) unless all boxes below are checked.
-
-- [ ] Pilot met or exceeded target success metrics.
-- [ ] Process documentation (SOP) drafted and linked.
-- [ ] Automation or code adjustments reviewed and merged.
-- [ ] Monitoring dashboard updated to track results against baseline.
+## 1. Primary Vector Analysis
+* **Target System/Component:** * **Blast Radius Category:** [Localized / Segmented / System-Wide]
+* **Cascading Dependencies:** ## 2. Kinetic Impact Evaluation Matrix
+| Dimension | Short-Term Horizon (0-30 Days) | Long-Term Horizon (6+ Months) |
+| :--- | :--- | :--- |
+| **Operational Friction** | | |
+| **System Entropy Cost** | | |
+| **Heuristic Optimization**| | |
