@@ -1,0 +1,36 @@
+name: "Step 2: Define & Isolate Problem"
+description: "Launch a Discovery Engine cycle to isolate a root cause."
+title: "[Discovery]: "
+labels: ["discovery-engine", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Discovery Engine Intake Phase"
+  - type: textarea
+    id: environmental-signal
+    attributes:
+      label: "1. Environmental Data & Signal (Step 1)"
+      description: "What specific metrics, logs, or signals triggered this lookup?"
+      placeholder: "e.g., Latency spike in node synchronization loops..."
+    validations:
+      required: true
+  - type: textarea
+    id: five-whys
+    attributes:
+      label: "2. The 5 Whys Analysis"
+      description: "Deconstruct the failure chain down to its root mechanism."
+      placeholder: |
+        1. Why? 
+        2. Why? 
+        3. Why? 
+        4. Why? 
+        5. Why?
+    validations:
+      required: true
+  - type: input
+    id: root-cause-isolation
+    attributes:
+      label: "3. Isolated Root Cause"
+      placeholder: "State the single addressable root cause isolated above."
+    validations:
+      required: true
