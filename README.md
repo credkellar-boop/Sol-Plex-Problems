@@ -81,25 +81,6 @@ Based on the cognitive engine and deployment architecture, the project utilizes 
 - **Google Cloud SDK (`gcloud`)**
 - **Node.js** (for supporting `package.json` scripts and linting)
 
-### Initialization
-
-1. **Clone the repository:**
-
-```bash
-   git clone [https://github.com/credkellar-boop/Sol-Plex-Problems.git](https://github.com/credkellar-boop/Sol-Plex-Problems.git)
-   cd Sol-Plex-Problems
-
-[dependencies]
-sol-plex-problems = "0.1.5"
-
----------------------------------------------
-
-## Donation
-(To buy full subscription of business structure, strip codes, ampilify and create public repo)
-
-## Monad
-0xE7512f65508306Dc669Ef232Bcb31A8Aacd73A37
-
 # Sol-Plex-Problems Toolkit
 
 A comprehensive toolkit for problem-solving. This repository houses the scripts, templates, and tracking workflows required to move from initial environmental data signals to scalable, standardized solutions.
@@ -161,3 +142,24 @@ graph TD
 
     style DE fill:#fffdf5,stroke:#ecc94b,stroke-width:1px,stroke-dasharray: 5 5
     style IE fill:#f7fafc,stroke:#4a5568,stroke-width:1px,stroke-dasharray: 5 5
+
+
+### Initialization
+
+1. **Clone the repository:**
+
+```bash
+   git clone [https://github.com/credkellar-boop/Sol-Plex-Problems.git](https://github.com/credkellar-boop/Sol-Plex-Problems.git)
+   cd Sol-Plex-Problems
+
+[dependencies]
+sol-plex-problems = "0.1.5"
+
+---------------------------------------------
+
+## Donation
+(To buy full subscription of business structure, strip codes, ampilify and create public repo)
+
+## Monad
+0xE7512f65508306Dc669Ef232Bcb31A8Aacd73A37
+
