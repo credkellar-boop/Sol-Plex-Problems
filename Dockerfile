@@ -1,6 +1,4 @@
-# ==============================================================================
 # 1. BASE SYSTEM LAYER
-# ==============================================================================
 FROM python:3.11-slim AS base
 
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -13,17 +11,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# ==============================================================================
 # 2. DEPENDENCY LAYER
-# ==============================================================================
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
-# ==============================================================================
+# =========================================================================
 # 3. APPLICATION & RUNTIME LAYER
-# ==============================================================================
+# =========================================================================
 # Copy the entire src directory into the container image
 COPY src/ ./src/
 
