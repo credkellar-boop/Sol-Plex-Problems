@@ -99,3 +99,50 @@ sol-plex-problems = "0.1.5"
 
 ## Monad
 0xE7512f65508306Dc669Ef232Bcb31A8Aacd73A37
+
+# Sol-Plex-Problems Toolkit
+
+A comprehensive toolkit for problem-solving. This repository houses the scripts, templates, and tracking workflows required to move from initial environmental data signals to scalable, standardized solutions.
+
+```mermaid
+graph TD
+    %% Nodes & Styling
+    classDef engine fill:#fff,stroke:#eee,stroke-width:2px;
+    classDef phase fill:#3182ce,stroke:#2b6cb0,stroke-width:2px,color:#fff;
+    classDef step fill:#edf2f7,stroke:#cbd5e0,stroke-width:1px,color:#2d3748;
+    classDef success fill:#48bb78,stroke:#38a169,stroke-width:2px,color:#fff;
+    classDef orangeStep fill:#feebc8,stroke:#dd6b20,stroke-width:2px,color:#7b341e;
+
+    1([1. OBSERVE<br>Data & Signal]):::phase
+    2[2. DEFINE THE PROBLEM<br>Identify gaps through]:::orangeStep
+    3([3. FIND VALID ANSWERS<br>Hypothesis & Deep]):::phase
+    4[4. DETERMINE BEST ACTION<br>Decision Making & Strategy]:::orangeStep
+    5([5. SCALE BEST ACTION<br>Implementation & Efficiency]):::phase
+    6[6. ACHIEVE SOLUTION<br>Desired Outcome Reached]:::success
+
+    %% Discovery Engine
+    subgraph DE [The Discovery Engine: Finding Action]
+        1 -->|Environmental| 2
+        2 -->|Inquiry & Root Cause| 3
+        
+        %% Sub-steps
+        2 -.-> Analyze:::step --> Why[Ask 'Why' Multiple]:::step --> Isolate:::step -.-> 3
+    end
+
+    %% Impact Engine
+    subgraph IE [The Impact Engine: Leading to Solution]
+        3 -->|Insights & Evidence| 4
+        4 -->|Execution Planning| 5
+        
+        %% Sub-steps
+        4 -.-> Pilot[Pilot / Test]:::step --> Measure:::step --> Standardize:::step --> 5
+        5 -.->|If scaling| 4
+    end
+
+    %% Loops & Governance
+    3 -.->|If answers are invalid| 1
+    5 -->|Operational Efficiency| 6
+    6 -.->|Monitor results against baseline| 1
+
+    style DE fill:#fffdf5,stroke:#ecc94b,stroke-width:1px,stroke-dasharray: 5 5
+    style IE fill:#f7fafc,stroke:#4a5568,stroke-width:1px,stroke-dasharray: 5 5
