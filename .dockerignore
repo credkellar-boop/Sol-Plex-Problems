@@ -9,12 +9,12 @@
 *.key
 .gcp-credentials.json
 
-# Infrastructure definitions (managed separately on host machine)
+# Infrastructure definitions (managed separately)
 deploy/
 .terraform/
 *.tfstate*
 
-# Python dependency artifacts and local runtime caches
+# Python dependency artifacts and local runtime
 __pycache__/
 *.pyc
 *.pyo
