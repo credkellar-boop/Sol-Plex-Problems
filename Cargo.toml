@@ -2,14 +2,14 @@
 name = "sol-plex-problems"
 version = "0.1.7"
 edition = "2021"
-authors = ["Darion Kellar <credkellar-boop>"]
-description = "A high-performance Rust library engineered for solving complex problems within the Sol ecosystem."
+authors = ["Darion Kellar"]
+description = "A high-performance Rust library structured for solving complex problems within the Sol ecosystem."
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/credkellar-boop/Sol-Plex-Problems"
 homepage = "https://github.com/credkellar-boop/Sol-Plex-Problems"
-keywords = ["sol", "plex", "problems", "solver"]
+keywords = ["sol", "plex", "problems", "complex", "complicated"]
 categories = ["algorithms", "development-tools"]
 
 [dependencies]
-# Add any necessary dependencies your code uses here
+# Add any dependencies your code needs here
