@@ -146,3 +146,18 @@ graph TD
 
     style DE fill:#fffdf5,stroke:#ecc94b,stroke-width:1px,stroke-dasharray: 5 5
     style IE fill:#f7fafc,stroke:#4a5568,stroke-width:1px,stroke-dasharray: 5 5
+%% ... (Existing Mermaid Code from the README) ...
+
+    %% Loops & Governance
+    3 -.->|If answers are invalid| 1
+    5 -->|Operational Efficiency| 6
+    6 -.->|Monitor results against baseline| 1
+
+    %% INTERACTIVE LINKS (Relative Paths for GitHub)
+    click 2 "/discovery-engine/root-cause-5whys.md" "Open Root Cause Playbook"
+    click 3 "/discovery-engine/hypothesis-validation.md" "Open Hypothesis Validation"
+    click 4 "/impact-engine/standardization-template.md" "Open Standardization Template"
+    click 5 "/impact-engine/pilot-measurement-tracker.csv" "Open Metrics Tracker"
+
+    style DE fill:#fffdf5,stroke:#ecc94b,stroke-width:1px,stroke-dasharray: 5 5
+    style IE fill:#f7fafc,stroke:#4a5568,stroke-width:1px,stroke-dasharray: 5 5
