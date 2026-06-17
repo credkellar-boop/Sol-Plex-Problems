@@ -37,3 +37,6 @@
 
 **Sol-Plex-Problems** bridges the gap between abstract analytical theories, high-performance cloud execution, and advanced cryptographic security. By combining classical heuristic searches with simulated quantum logic layers (QKD, FHE), this repository serves as a cognitive engine for complex, distributed problem-solving.
 
+ What it does: It's a "cognitive engine" for complex, distributed problem-solving that merges classical heuristic searches with simulated quantum logic.
+ How to install: Clone the repo, then run ⁠pip install -r requirements.txt⁠ for the Python environment and ⁠cargo build⁠ for the Rust core.
+ Why it's cool: It bridges high-speed Rust and Python AI with advanced quantum-safe cryptography (QKD, FHE) and cloud execution.
