@@ -43,8 +43,9 @@
 * **How to install:** Clone the repository, then run `pip install -r requirements.txt` for the Python environment and `cargo build` for the Rust core.
 * **Why it's cool:** It bridges high-speed Rust and Python AI with advanced quantum-safe cryptography (QKD, FHE) and cloud execution.
 
-Donation
+## Donations
+
 (To buy full subscription of business structure, strip codes, ampilify and create public repo)
 
-Monad
+## Monad
 0xE7512f65508306Dc669Ef232Bcb31A8Aacd73A37
