@@ -4,7 +4,8 @@
 <p align="center">
   <img src="IMG_0660.png" alt="Sol-Plex Logo" width="500"/>
 </p>
-
+<img src="https://komarev.com/ghpvc/?username=credkellar-boop" alt="Profile Views"
+  
 ## 📊 Repository Status & Quality
 <p align="left">
   <img src="https://img.shields.io/github/last-commit/username/Sol-Plex-Problems?style=flat-square&logo=github&color=blue" alt="Last Commit"/>
